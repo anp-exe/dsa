@@ -1,0 +1,124 @@
+site_name: DSA Notes
+site_description: My personal, ad-free Data Structures & Algorithms notes (Python)
+site_author: anna
+docs_dir: docs
+
+theme:
+  name: material
+  language: en
+  logo: assets/pancake.svg
+  favicon: assets/pancake.svg
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: pink
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
+
+extra_javascript:
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - getting-started/index.md
+      - Introduction: getting-started/intro.md
+      - A Simple Algorithm: getting-started/simple-algorithm.md
+  - Data Structures:
+      - data-structures/index.md
+      - Arrays: data-structures/arrays.md
+      - Linked Lists: data-structures/linked-lists.md
+      - Stacks: data-structures/stacks.md
+      - Queues: data-structures/queues.md
+      - Hash Tables: data-structures/hash-tables.md
+      - Trees: data-structures/trees.md
+      - Binary Trees: data-structures/binary-trees.md
+      - Binary Search Trees: data-structures/binary-search-trees.md
+      - AVL Trees: data-structures/avl-trees.md
+      - Graphs: data-structures/graphs.md
+  - Algorithms:
+      - algorithms/index.md
+      - Sorting:
+          - Bubble Sort: algorithms/sorting/bubble-sort.md
+          - Selection Sort: algorithms/sorting/selection-sort.md
+          - Insertion Sort: algorithms/sorting/insertion-sort.md
+          - Quick Sort: algorithms/sorting/quick-sort.md
+          - Counting Sort: algorithms/sorting/counting-sort.md
+          - Radix Sort: algorithms/sorting/radix-sort.md
+          - Merge Sort: algorithms/sorting/merge-sort.md
+          - "Pancake Sort 🥞": algorithms/sorting/pancake-sort.md
+      - Searching:
+          - Linear Search: algorithms/searching/linear-search.md
+          - Binary Search: algorithms/searching/binary-search.md
+      - Graph Algorithms:
+          - Traversal (DFS & BFS): algorithms/graphs/traversal.md
+          - Cycle Detection: algorithms/graphs/cycle-detection.md
+          - "Dijkstra's": algorithms/graphs/dijkstra.md
+          - Bellman-Ford: algorithms/graphs/bellman-ford.md
+          - "Prim's": algorithms/graphs/prim.md
+          - "Kruskal's": algorithms/graphs/kruskal.md
+          - Ford-Fulkerson: algorithms/graphs/ford-fulkerson.md
+          - Edmonds-Karp: algorithms/graphs/edmonds-karp.md
+      - Dynamic Programming:
+          - Memoization: algorithms/dp/memoization.md
+          - Tabulation: algorithms/dp/tabulation.md
+          - Dynamic Programming: algorithms/dp/dynamic-programming.md
+          - 0/1 Knapsack: algorithms/dp/knapsack.md
+      - More Algorithms:
+          - Euclidean Algorithm: algorithms/other/euclidean.md
+          - Huffman Coding: algorithms/other/huffman.md
+          - Traveling Salesman: algorithms/other/traveling-salesman.md
+          - Greedy Algorithms: algorithms/other/greedy.md
+  - Reference:
+      - Time Complexity: reference/time-complexity.md
+      - Cheat Sheet: reference/cheat-sheet.md
