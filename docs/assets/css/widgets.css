@@ -110,6 +110,27 @@
 }
 .py-run-btn:disabled { opacity: 0.6; cursor: wait; }
 .py-hint { font-size: 0.75rem; color: var(--md-default-fg-color--light); }
+
+/* Auto Run bar attached under a highlighted code block */
+.py-bar-attached {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-top: none;
+  border-radius: 0 0 0.3rem 0.3rem;
+  margin-top: -0.9rem;
+}
+.language-python.highlight { margin-bottom: 0; }
+.language-python.highlight code[contenteditable="true"]:focus {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 2px;
+  border-radius: 0.2rem;
+}
+.py-bar-attached + .py-out {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-top: none;
+  border-radius: 0 0 0.3rem 0.3rem;
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+}
 .py-out {
   margin: 0;
   padding: 0.9rem;
