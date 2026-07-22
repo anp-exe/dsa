@@ -1,10 +1,9 @@
-# DSA Notes 🍵
+# DSA Notes
 
 My own **ad-free** Data Structures & Algorithms study site. Clean explanations, runnable Python, zero pop-ups.
 
 <figure markdown>
   ![Pancake mascot](assets/pancake.svg){ width="180" }
-  <figcaption>Powered by matcha and reformer Pilates.</figcaption>
 </figure>
 
 ## How this site is organised

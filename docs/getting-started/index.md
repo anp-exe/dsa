@@ -5,4 +5,5 @@ Data Structures and Algorithms (DSA) is the part of computer science that studie
 Start here:
 
 - [Introduction](intro.md) — what DSA is and why it matters.
+- [What Does O(n) Mean?](big-o.md) — Big O notation explained in plain language, no scary math.
 - [A Simple Algorithm](simple-algorithm.md) — write your very first algorithm and meet the idea of time complexity.

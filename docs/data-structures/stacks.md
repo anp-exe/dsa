@@ -1,6 +1,12 @@
 # Stacks
 
-A **stack** is a linear structure with **LIFO** order: **Last In, First Out**. The last item you push is the first item you pop. Think of a stack of plates — you take from the top.
+A **stack** is a linear structure with **LIFO** order: **Last In, First Out**. The last item you push is the first item you pop.
+
+<figure markdown>
+  ![Stack of pancakes](../assets/pancake.svg){ width="180" }
+</figure>
+
+Think of a **stack of pancakes**: you can only add a pancake to the top, and you can only take one off the top. The last pancake you put on is the first one you eat.
 
 ## Operations
 

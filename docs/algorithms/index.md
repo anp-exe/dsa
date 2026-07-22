@@ -15,7 +15,6 @@ Put elements in order. Great for learning how algorithm design and time complexi
 | [Counting Sort](sorting/counting-sort.md) | O(n+k) | O(n+k) | O(n+k) | Yes | integers in a small range |
 | [Radix Sort](sorting/radix-sort.md) | O(nk) | O(nk) | O(nk) | Yes | sorts by digit |
 | [Merge Sort](sorting/merge-sort.md) | O(n log n) | O(n log n) | O(n log n) | Yes | reliable, needs extra space |
-| [Pancake Sort 🥞](sorting/pancake-sort.md) | O(n) | O(n²) | O(n²) | No | sort by flipping prefixes |
 
 ## Searching
 

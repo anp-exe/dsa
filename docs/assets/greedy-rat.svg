@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="A greedy cartoon rat in a business suit celebrating in a shower of cash">
+  <defs>
+    <linearGradient id="suit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3f47"/>
+      <stop offset="1" stop-color="#23272d"/>
+    </linearGradient>
+    <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9a9089"/>
+      <stop offset="1" stop-color="#7d746d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- flying cash -->
+  <g transform="translate(0,0)">
+    <g fill="#a7d29a" stroke="#3f7a45" stroke-width="2">
+      <g transform="translate(70,120) rotate(-20)"><rect x="-22" y="-11" width="44" height="22" rx="3"/><circle cx="0" cy="0" r="6" fill="none"/></g>
+      <g transform="translate(320,150) rotate(18)"><rect x="-22" y="-11" width="44" height="22" rx="3"/><circle cx="0" cy="0" r="6" fill="none"/></g>
+      <g transform="translate(300,300) rotate(-14)"><rect x="-22" y="-11" width="44" height="22" rx="3"/><circle cx="0" cy="0" r="6" fill="none"/></g>
+      <g transform="translate(90,300) rotate(24)"><rect x="-22" y="-11" width="44" height="22" rx="3"/><circle cx="0" cy="0" r="6" fill="none"/></g>
+      <g transform="translate(200,70) rotate(8)"><rect x="-22" y="-11" width="44" height="22" rx="3"/><circle cx="0" cy="0" r="6" fill="none"/></g>
+      <g transform="translate(55,230) rotate(40)"><rect x="-20" y="-10" width="40" height="20" rx="3"/><circle cx="0" cy="0" r="5" fill="none"/></g>
+      <g transform="translate(345,235) rotate(-32)"><rect x="-20" y="-10" width="40" height="20" rx="3"/><circle cx="0" cy="0" r="5" fill="none"/></g>
+    </g>
+  </g>
+
+  <!-- tail -->
+  <path d="M205 350 q60 10 70 -30 q6 -26 -18 -30" fill="none" stroke="#8a7f78" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- legs -->
+  <path d="M175 300 l-16 55 q-2 8 6 8 l18 0 q6 0 4 -8 l-6 -55z" fill="url(#suit)"/>
+  <path d="M225 300 l16 55 q2 8 -6 8 l-18 0 q-6 0 -4 -8 l6 -55z" fill="url(#suit)"/>
+  <ellipse cx="168" cy="366" rx="16" ry="8" fill="#8a7f78"/>
+  <ellipse cx="232" cy="366" rx="16" ry="8" fill="#8a7f78"/>
+
+  <!-- suit body -->
+  <path d="M150 300 q-8 -80 50 -86 q58 6 50 86 z" fill="url(#suit)"/>
+  <!-- white shirt V + red tie -->
+  <path d="M186 214 l14 20 l14 -20 l0 46 l-28 0 z" fill="#f4f4f2"/>
+  <path d="M200 234 l9 8 l-6 40 l-6 0 l-6 -40 z" fill="#c8242c"/>
+  <!-- lapels -->
+  <path d="M186 214 l-24 26 l16 10 l22 -16 z" fill="#2b2f35"/>
+  <path d="M214 214 l24 26 l-16 10 l-22 -16 z" fill="#2b2f35"/>
+
+  <!-- raised arms holding cash -->
+  <path d="M158 226 q-40 -20 -52 -60" fill="none" stroke="url(#suit)" stroke-width="20" stroke-linecap="round"/>
+  <path d="M242 226 q40 -20 52 -60" fill="none" stroke="url(#suit)" stroke-width="20" stroke-linecap="round"/>
+  <!-- paws -->
+  <circle cx="103" cy="163" r="12" fill="#8a7f78"/>
+  <circle cx="297" cy="163" r="12" fill="#8a7f78"/>
+  <!-- cash fans in paws -->
+  <g fill="#a7d29a" stroke="#3f7a45" stroke-width="2">
+    <g transform="translate(103,150) rotate(-12)"><rect x="-16" y="-24" width="32" height="46" rx="3"/><circle cx="0" cy="-1" r="7" fill="none"/></g>
+    <g transform="translate(297,150) rotate(12)"><rect x="-16" y="-24" width="32" height="46" rx="3"/><circle cx="0" cy="-1" r="7" fill="none"/></g>
+  </g>
+
+  <!-- head -->
+  <ellipse cx="200" cy="180" rx="46" ry="40" fill="url(#fur)"/>
+  <!-- snout -->
+  <path d="M200 176 q34 4 40 22 q-6 16 -40 12 z" fill="#9a9089"/>
+  <ellipse cx="240" cy="196" rx="7" ry="6" fill="#e39aa6"/>
+  <!-- ears -->
+  <circle cx="168" cy="146" r="18" fill="#8a7f78"/>
+  <circle cx="168" cy="146" r="9" fill="#e39aa6"/>
+  <circle cx="232" cy="146" r="18" fill="#8a7f78"/>
+  <circle cx="232" cy="146" r="9" fill="#e39aa6"/>
+  <!-- greedy eyes ($ money eyes) -->
+  <circle cx="188" cy="172" r="12" fill="#fff" stroke="#3a2f2a" stroke-width="2"/>
+  <circle cx="216" cy="172" r="12" fill="#fff" stroke="#3a2f2a" stroke-width="2"/>
+  <text x="188" y="178" font-family="Georgia, serif" font-size="17" font-weight="bold" fill="#3f7a45" text-anchor="middle">$</text>
+  <text x="216" y="178" font-family="Georgia, serif" font-size="17" font-weight="bold" fill="#3f7a45" text-anchor="middle">$</text>
+  <!-- grin + whiskers -->
+  <path d="M206 200 q16 12 28 2" fill="none" stroke="#3a2f2a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M244 190 l26 -4 M244 198 l26 4" stroke="#c9c2bc" stroke-width="2"/>
+</svg>

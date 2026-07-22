@@ -1,5 +1,10 @@
 # Greedy Algorithms
 
+<figure markdown>
+  ![Greedy mascot: a suited rat grabbing all the cash](../../assets/greedy-rat.svg){ width="200" }
+  <figcaption>Take the best-looking thing right now. Worry about the consequences later.</figcaption>
+</figure>
+
 A **greedy algorithm** builds a solution step by step, always taking the choice that looks **best right now** — the local optimum — hoping it leads to a global optimum. Greedy methods are simple and fast, but they only give the correct answer when the problem has the right structure.
 
 ## When greedy works

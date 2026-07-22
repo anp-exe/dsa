@@ -68,11 +68,18 @@ markdown_extensions:
 extra_javascript:
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/anp-exe
+      name: anp-exe on GitHub
+
 nav:
   - Home: index.md
   - Getting Started:
       - getting-started/index.md
       - Introduction: getting-started/intro.md
+      - What Does O(n) Mean?: getting-started/big-o.md
       - A Simple Algorithm: getting-started/simple-algorithm.md
   - Data Structures:
       - data-structures/index.md
@@ -96,7 +103,6 @@ nav:
           - Counting Sort: algorithms/sorting/counting-sort.md
           - Radix Sort: algorithms/sorting/radix-sort.md
           - Merge Sort: algorithms/sorting/merge-sort.md
-          - "Pancake Sort 🥞": algorithms/sorting/pancake-sort.md
       - Searching:
           - Linear Search: algorithms/searching/linear-search.md
           - Binary Search: algorithms/searching/binary-search.md
