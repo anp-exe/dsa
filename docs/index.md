@@ -4,6 +4,7 @@ My own **ad-free** Data Structures & Algorithms study site. Clean explanations, 
 
 <figure markdown>
   ![Pancake mascot](assets/pancake.svg){ width="180" }
+  <figcaption>A stack of pancakes... get it...</figcaption>
 </figure>
 
 ## How this site is organised
@@ -26,7 +27,7 @@ Every page follows the same rhythm: what the thing is, how it works, a **Python 
 
 | Data Structures | Algorithms |
 | --- | --- |
-| [Arrays](data-structures/arrays.md) | [Sorting](algorithms/index.md#sorting) (7 + a bonus 🥞) |
+| [Arrays](data-structures/arrays.md) | [Sorting](algorithms/index.md#sorting) (7 algorithms) |
 | [Linked Lists](data-structures/linked-lists.md) | [Searching](algorithms/searching/linear-search.md) |
 | [Stacks](data-structures/stacks.md) & [Queues](data-structures/queues.md) | [Graph traversal](algorithms/graphs/traversal.md) |
 | [Hash Tables](data-structures/hash-tables.md) | [Shortest paths](algorithms/graphs/dijkstra.md) |

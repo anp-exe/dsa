@@ -33,7 +33,7 @@ docs/
 │                        hash tables, trees, BST, AVL, graphs
 ├── algorithms/
 │   ├── sorting/         bubble, selection, insertion, quick,
-│   │                    counting, radix, merge, pancake 🥞
+│   │                    counting, radix, merge
 │   ├── searching/       linear, binary
 │   ├── graphs/          DFS/BFS, cycles, Dijkstra, Bellman-Ford,
 │   │                    Prim, Kruskal, Ford-Fulkerson, Edmonds-Karp

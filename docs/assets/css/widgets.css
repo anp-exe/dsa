@@ -1,0 +1,123 @@
+/* ---- Interactive stack visualizer ---- */
+.stack-viz {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.4rem;
+  padding: 1rem;
+  margin: 1.2rem 0;
+  background: var(--md-code-bg-color);
+}
+.sv-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: center;
+  min-height: 3.2rem;
+  padding: 0.4rem 0;
+}
+.sv-box {
+  min-width: 2.6rem;
+  height: 2.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--md-code-font-family, monospace);
+  font-weight: 700;
+  border-radius: 0.35rem;
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.sv-box.sv-top {
+  outline: 3px solid var(--md-accent-fg-color);
+  outline-offset: 2px;
+}
+.sv-box.sv-flash { transform: translateY(-6px) scale(1.08); }
+.sv-empty {
+  color: var(--md-default-fg-color--light);
+  font-style: italic;
+}
+.sv-msg {
+  font-family: var(--md-code-font-family, monospace);
+  font-size: 0.8rem;
+  margin: 0.5rem 0 0.8rem;
+  color: var(--md-default-fg-color--light);
+  min-height: 1.1rem;
+}
+.sv-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+.sv-label {
+  font-size: 0.85rem;
+  color: var(--md-default-fg-color--light);
+}
+.sv-btn {
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.4rem 0.9rem;
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+  color: #fff;
+  background: #43a047;
+  transition: filter 0.15s ease;
+}
+.sv-btn:hover { filter: brightness(1.08); }
+.sv-btn.sv-pop { background: #e53935; }
+.sv-btn.sv-peek { background: var(--md-primary-fg-color); }
+.sv-btn.sv-clear { background: #757575; }
+
+/* ---- In-browser Python runner ---- */
+.py-run {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.4rem;
+  overflow: hidden;
+  margin: 1.2rem 0;
+}
+.py-run .py-code {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  padding: 0.9rem;
+  font-family: var(--md-code-font-family, monospace);
+  font-size: 0.8rem;
+  line-height: 1.5;
+  background: var(--md-code-bg-color);
+  color: var(--md-code-fg-color);
+  resize: vertical;
+  min-height: 8rem;
+}
+.py-run .py-code:focus { outline: 2px solid var(--md-accent-fg-color); outline-offset: -2px; }
+.py-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 0.9rem;
+  background: var(--md-default-fg-color--lightest);
+}
+.py-run-btn {
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.4rem 1rem;
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+  color: #fff;
+  background: #43a047;
+}
+.py-run-btn:disabled { opacity: 0.6; cursor: wait; }
+.py-hint { font-size: 0.75rem; color: var(--md-default-fg-color--light); }
+.py-out {
+  margin: 0;
+  padding: 0.9rem;
+  font-family: var(--md-code-font-family, monospace);
+  font-size: 0.8rem;
+  white-space: pre-wrap;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  min-height: 1.2rem;
+}

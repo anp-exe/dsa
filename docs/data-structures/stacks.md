@@ -20,6 +20,12 @@ Think of a **stack of pancakes**: you can only add a pancake to the top, and you
 
 All of these are **O(1)**.
 
+## Try it: interactive stack
+
+Push adds a value to the top, Pop removes the top one (LIFO). The highlighted box is the current top.
+
+<div class="stack-viz" data-init="[5, 6, 2, 9, 3, 8, 4, 2]"></div>
+
 ## The easy way: a Python list
 
 A Python list already works as a stack using `append` and `pop`:
@@ -33,6 +39,31 @@ print(stack.pop())  # 'C'  (top)
 print(stack[-1])    # 'B'  (peek)
 print(len(stack))   # 2
 ```
+
+## Run it yourself
+
+This actually runs Python in your browser. Edit the code and hit **Run** (the first run downloads the runtime, then it's instant).
+
+<div class="py-run">
+<textarea class="py-code" spellcheck="false">stack = []
+
+stack.append('A')   # push
+stack.append('B')
+stack.append('C')
+print("stack:", stack)
+
+top = stack.pop()   # pop
+print("popped:", top)
+print("stack now:", stack)
+print("peek:", stack[-1])
+print("size:", len(stack))
+</textarea>
+<div class="py-bar">
+  <button class="py-run-btn">Run</button>
+  <span class="py-hint">Runs locally with Pyodide. Your code never leaves your machine.</span>
+</div>
+<pre class="py-out">Output will appear here.</pre>
+</div>
 
 ## A proper Stack class
 
